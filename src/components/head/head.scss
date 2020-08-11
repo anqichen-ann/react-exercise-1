@@ -1,0 +1,36 @@
+@import '../../styles/variables.scss';
+
+.head {
+    text-align: center;
+}
+.head h1 {
+    margin: 0 0 $base-margin 0;
+}
+.head h2 {
+    margin: 0 0 $base-margin 0;
+}
+
+.head img {
+    border-radius: 50%;
+    width: 150;
+    height: 150;
+    margin-top: -75px;
+    margin-bottom: $base-margin;
+}
+
+.main hr{
+    height: 5px;
+    background-color: $gray;
+    border-color: transparent;
+}
+.content {
+    margin: 0 20px;
+}
+
+.content h3 {
+    margin: $base-margin 0;
+}
+
+.content ul{
+    position: relative;
+}

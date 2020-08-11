@@ -1,0 +1,23 @@
+@import '../../styles/variables.scss';
+
+.edu {
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.edu .year {
+    float: left;
+    font-weight: bold;
+}
+.edu .desc{
+width: 800px;
+float: right;
+background-color: $gray;
+//margin: 10px 0;
+}
+.edu .title{
+    font-weight: bold;
+}
+.edu .desc p{
+    margin: 10px;
+}
